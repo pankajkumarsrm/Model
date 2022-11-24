@@ -1,4 +1,4 @@
-@using PassDatainMVC.Models
+@PassDatainMVC.Models
 @{
 ViewBag.Title="Index";
 }
