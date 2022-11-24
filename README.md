@@ -2,7 +2,7 @@
 @{
 ViewBag.Title="Index";
 }
-<h3> Passing Data Form Controller To View using viewData<h3>
+<h3> Passing Data Form Controller<h3>
 @{
 var data=(Record) ViewData["Message"];
 }
