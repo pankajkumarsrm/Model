@@ -1,4 +1,4 @@
-@PassDatainMVC.Models
+@using usingDatainMVC.Models
 @{
 ViewBag.Title="Index";
 }
@@ -7,5 +7,5 @@ ViewBag.Title="Index";
 var data=(Record) ViewData["Message"];
 }
 <h3> Id: @data.Id</h3>
-<h3> RecordName:@data.RecordName</h3>
-<h3> RecordDetail:@data.RecordDetail</h3>
+<h3> RecordName:@dataName</h3>
+<h3> RecordDetail:@dataDetail</h3>
